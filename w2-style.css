@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    font: 100;
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50;
+    padding: 100;
+    text-align: center;
+}
+
+article{
+    color: antiquewhite;
+    font: 100;
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50;
+    padding: 100;
+    text-align: center;
+    top: 500px;
+
+}
