@@ -23,13 +23,16 @@ h1{
     text-shadow: 1px 1px 1px #000;
 }
 article{
-    padding: 40px;
-    border-radius: 5px;
-    width:50%;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    background-color: #000;
+    top: 150px;
+    position: relative;
     text-align: right;
     font-size: large;
-    right: 100px;
     font-weight: 100;
+    nav-right: auto;
     font-family: 'poppins', sans-serif;
 }
 .main_box{
