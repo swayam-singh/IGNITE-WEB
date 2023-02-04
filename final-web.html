@@ -1,0 +1,64 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(0, 0, 0);  
+}
+p{
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 10px;
+    right: 47%;
+}  
+button {   
+       background-color: #000000;   
+       width: 100%;  
+        color: rgb(255, 255, 255);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }    
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid rgb(255, 255, 255);   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+ .container {   
+        padding: 25px;   
+        background-color: rgb(0, 0, 0);  
+    }   
+</style>   
+</head>    
+<body>      
+    <form onsubmit="return imsg()">  
+        <div class="container" id="imsg">   
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+        </div>
+        <script>
+// (A) INSERT INLINE MESSAGE
+function imsg (msg) {
+  document.getElementById("imsg").innerHTML = "Message";
+  return false;
+}
+</script>
+</form>
+        <div>
+            <p>HE WATCHES!</p>
+        </div>
+    </form>     
+</body>     
+</html>  
